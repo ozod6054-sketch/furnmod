@@ -19,18 +19,16 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Setup Gradle
+      - name: Set up Gradle 7.3.3
         uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '7.3.3'
 
-      - name: Make gradlew executable (if exists)
-        run: |
-          if [ -f gradlew ]; then
-            chmod +x gradlew
-          else
-            echo "gradlew not found, installing gradle wrapper..."
-            gradle wrapper --gradle-version 7.3.3
-            chmod +x gradlew
-          fi
+      - name: Generate gradlew
+        run: gradle wrapper --gradle-version=7.3.3
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
       - name: Build with Gradle
         run: ./gradlew build -x test --no-daemon
