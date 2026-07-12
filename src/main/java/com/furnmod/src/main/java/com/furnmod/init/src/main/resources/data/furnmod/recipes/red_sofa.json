@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "WSW",
+    "W W"
+  ],
+  "key": {
+    "R": { "item": "minecraft:red_wool" },
+    "W": { "item": "minecraft:oak_planks" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "furnmod:red_sofa",
+    "count": 1
+  }
+}

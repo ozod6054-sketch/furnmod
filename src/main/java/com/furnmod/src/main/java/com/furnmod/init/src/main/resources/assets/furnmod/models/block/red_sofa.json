@@ -1,0 +1,74 @@
+{
+  "credit": "FurnMod",
+  "textures": {
+    "sofa": "furnmod:block/red_sofa",
+    "particle": "furnmod:block/red_sofa"
+  },
+  "elements": [
+    {
+      "__comment": "O'tirish joyi",
+      "from": [0, 4, 2],
+      "to": [16, 8, 16],
+      "faces": {
+        "down": {"uv": [0, 0, 16, 14], "texture": "#sofa"},
+        "up":   {"uv": [0, 0, 16, 14], "texture": "#sofa"},
+        "north":{"uv": [0, 0, 16, 4],  "texture": "#sofa"},
+        "south":{"uv": [0, 0, 16, 4],  "texture": "#sofa"},
+        "west": {"uv": [0, 0, 14, 4],  "texture": "#sofa"},
+        "east": {"uv": [0, 0, 14, 4],  "texture": "#sofa"}
+      }
+    },
+    {
+      "__comment": "Orqa suyanchiq",
+      "from": [0, 8, 0],
+      "to": [16, 16, 4],
+      "faces": {
+        "down": {"uv": [0, 0, 16, 4],  "texture": "#sofa"},
+        "up":   {"uv": [0, 0, 16, 4],  "texture": "#sofa"},
+        "north":{"uv": [0, 0, 16, 8],  "texture": "#sofa"},
+        "south":{"uv": [0, 0, 16, 8],  "texture": "#sofa"},
+        "west": {"uv": [0, 0, 4, 8],   "texture": "#sofa"},
+        "east": {"uv": [0, 0, 4, 8],   "texture": "#sofa"}
+      }
+    },
+    {
+      "__comment": "Chap qo'ltiq",
+      "from": [0, 4, 0],
+      "to": [3, 12, 16],
+      "faces": {
+        "down": {"uv": [0, 0, 3, 16],  "texture": "#sofa"},
+        "up":   {"uv": [0, 0, 3, 16],  "texture": "#sofa"},
+        "north":{"uv": [0, 0, 3, 8],   "texture": "#sofa"},
+        "south":{"uv": [0, 0, 3, 8],   "texture": "#sofa"},
+        "west": {"uv": [0, 0, 16, 8],  "texture": "#sofa"},
+        "east": {"uv": [0, 0, 16, 8],  "texture": "#sofa"}
+      }
+    },
+    {
+      "__comment": "O'ng qo'ltiq",
+      "from": [13, 4, 0],
+      "to": [16, 12, 16],
+      "faces": {
+        "down": {"uv": [0, 0, 3, 16],  "texture": "#sofa"},
+        "up":   {"uv": [0, 0, 3, 16],  "texture": "#sofa"},
+        "north":{"uv": [0, 0, 3, 8],   "texture": "#sofa"},
+        "south":{"uv": [0, 0, 3, 8],   "texture": "#sofa"},
+        "west": {"uv": [0, 0, 16, 8],  "texture": "#sofa"},
+        "east": {"uv": [0, 0, 16, 8],  "texture": "#sofa"}
+      }
+    },
+    {
+      "__comment": "Pastki qism (oyoqlar)",
+      "from": [0, 0, 0],
+      "to": [16, 4, 16],
+      "faces": {
+        "down": {"uv": [0, 0, 16, 16], "texture": "#sofa"},
+        "up":   {"uv": [0, 0, 16, 16], "texture": "#sofa"},
+        "north":{"uv": [0, 0, 16, 4],  "texture": "#sofa"},
+        "south":{"uv": [0, 0, 16, 4],  "texture": "#sofa"},
+        "west": {"uv": [0, 0, 16, 4],  "texture": "#sofa"},
+        "east": {"uv": [0, 0, 16, 4],  "texture": "#sofa"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+JVM info: Oracle Corporation - 1.8.0_401 - 25.401-b10
+java.net.preferIPv4Stack=true
+Current Time: 11/07/2026 03:38:41
+Host: files.minecraftforge.net [104.21.58.163, 172.67.161.211]
+Host: maven.minecraftforge.net [172.67.161.211, 104.21.58.163]
+Host: libraries.minecraft.net [150.171.109.53]
+Host: launchermeta.mojang.com [150.171.109.53]
+Host: piston-meta.mojang.com [150.171.109.53]
+Host: sessionserver.mojang.com [150.171.109.51]
+Host: authserver.mojang.com [Unknown]
+Target Directory: C:\FurnMod\mcpserver
+Data kindly mirrored by CreeperHost at https://www.creeperhost.net/
+Extracting main jar:
+  Extracted successfully
+Considering minecraft server jar
+  Downloading library from https://piston-data.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readFully(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.decode(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.MeteredStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at java.nio.file.Files.copy(Unknown Source)
+	at java.nio.file.Files.copy(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils.download(DownloadUtils.java:176)
+	at net.minecraftforge.installer.DownloadUtils.download(DownloadUtils.java:168)
+	at net.minecraftforge.installer.actions.Action.downloadVanilla(Action.java:134)
+	at net.minecraftforge.installer.actions.ServerInstall.run(ServerInstall.java:61)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:138)
+Downloading minecraft server failed, invalid checksum.
+Try again, or manually place server jar to skip download.
+There was an error during installation

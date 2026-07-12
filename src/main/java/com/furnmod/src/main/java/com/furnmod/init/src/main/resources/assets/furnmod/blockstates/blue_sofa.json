@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "furnmod:block/blue_sofa" },
+    "facing=south": { "model": "furnmod:block/blue_sofa", "y": 180 },
+    "facing=west":  { "model": "furnmod:block/blue_sofa", "y": 270 },
+    "facing=east":  { "model": "furnmod:block/blue_sofa", "y": 90  }
+  }
+}

@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[dependencies.furnmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.furnmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+    modId="furnmod"
+    version="1.0.0"
+    displayName="FurnMod - Furniture Mod"
+    description='''
+    Minecraft uchun mebel modu!
+    Stul, stol, divan va boshqa mebellar.
+    '''
+    logoFile="furnmod.png"
+    authors="SizningIsmingiz"
+    displayURL="https://github.com/yourname/furnmod"

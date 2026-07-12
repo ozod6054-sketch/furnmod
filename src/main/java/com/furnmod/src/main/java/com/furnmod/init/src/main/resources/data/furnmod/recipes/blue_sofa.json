@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "WSW",
+    "W W"
+  ],
+  "key": {
+    "B": { "item": "minecraft:blue_wool" },
+    "W": { "item": "minecraft:oak_planks" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "furnmod:blue_sofa",
+    "count": 1
+  }
+}

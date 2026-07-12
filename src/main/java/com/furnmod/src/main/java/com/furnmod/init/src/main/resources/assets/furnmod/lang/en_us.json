@@ -1,0 +1,9 @@
+{
+  "block.furnmod.wood_chair": "Wooden Chair",
+  "block.furnmod.oak_chair": "Oak Chair",
+  "block.furnmod.wood_table": "Wooden Table",
+  "block.furnmod.oak_table": "Oak Table",
+  "block.furnmod.red_sofa": "Red Sofa",
+  "block.furnmod.blue_sofa": "Blue Sofa",
+  "itemGroup.furn_group": "Furniture"
+}
